@@ -13,18 +13,18 @@ render(){
     return(
         <Container>
            <Form className="d-flex m-3">
-  <FormControl
-      type="search"
-      placeholder="Search"
-      className="me-2"
-      aria-label="Search"
-        value ={this.state.search}
-      onChange={(e)=> (this.setState({search:e.target.value}))}
-    />
-    
-    <Button variant="outline-success">Search</Button>
-    <span>{this.state.search}</span>
-  </Form>
+                <FormControl
+                    type="search"
+                    placeholder="Search"
+                    className="me-2"
+                    aria-label="Search"
+                      value ={this.state.search}
+                    onChange={(e)=> (this.setState({search:e.target.value}))}
+                  />
+                  
+                  <Button variant="outline-success">Search</Button>
+                  <span>{this.state.search}</span>
+            </Form>
            
             <Row>
             {

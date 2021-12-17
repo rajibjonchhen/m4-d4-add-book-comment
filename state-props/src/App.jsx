@@ -17,8 +17,10 @@ function App() {
       
       <MyWarning warning="This Book is on High Demand" color="info"/>
       <MyBadges Mytext="Buy The Latest Book"  color="danger" />
-      <SingleBook className="singlBook" book={scifiBooks[0]}/>
+      
       <BookList books={scifiBooks}/>
+      <SingleBook className="singlBook" book={scifiBooks[0]}/>
+      
     </div>
   );
 }
